@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#navCss{
+  background-color:black;
+  transition:0.8s;
+  box-shadow: 0px 0px 7px black
+}
+.navList{
+  list-style:none;
+  font-size:2rem;
+  cursor:pointer;
+  margin:0px 9px;
+  color:white
+}
+.myBox{
+  display:flex;
+  justify-content:center;
+  align-item:center
+}
+.nav-link:active{
+  color:black;
+}
+.accordion .accordion-item .accordion-header button{
+  background-color: white;
+  box-shadow: none;
+}
+
+.accordion-collapse{
+  transition:0.4s
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#addBtn{
+  color:#909090;
+}
+#addBtn:hover{
+  background-color:grey;
+  color:white;
+  transition:0.4s;
+  border:none;
+}
+.box-box{
+
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.note_del_edit{
+  cursor:pointer;
+  font-size:1rem;
+}
+.noteEditBox button{
+  margin:2px
+}
+.noteEditBox{
+  display:flex;
+  justify-contnet:spcae-evenly;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
